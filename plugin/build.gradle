@@ -15,9 +15,9 @@ uploadArchives {
     repositories {
         mavenDeployer {
             //设置插件的GAV参数
-            pom.groupId = 'com.jym.ok'
+            pom.groupId = 'com.bruce.local'
             pom.version = '1.0.0'
-            pom.artifactId = 'helloplugin'
+            pom.artifactId = 'hello'
             //文件发布到下面目录
             repository(url: uri('../repo'))
         }
